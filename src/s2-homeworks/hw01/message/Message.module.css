@@ -1,16 +1,30 @@
 .message {
-
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
 }
 
 .imageAndText {
-
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: #DDEEFF;
 }
 
-.imageAndText img {
-
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #DDEEFF 0);
 }
 
-.text {
+.message img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.message text {
+    min-width: 150px;
+    max-width: 300px;
 
 }
 
@@ -19,13 +33,17 @@
 }
 
 .name {
-
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategray;
 }
 
 .messageText {
-
 }
 
 .time {
+    display: flex;
+    justify-content: flex-end;
+    color: #00cc22;
 
 }
